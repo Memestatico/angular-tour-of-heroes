@@ -70,7 +70,7 @@ import { HeroService } from './hero.service';
    `],
    providers: [HeroService]
 })
-export class HeroComponent implements OnInit{
+export class HeroesComponent implements OnInit{
    heroes: Hero[];
    selectedHero: Hero;
    constructor(private heroService: HeroService) {}
